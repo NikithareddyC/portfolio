@@ -3,6 +3,14 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projects = [
   {
+    title: 'AI Research platform',
+    description: '3-in-1 platform for AI-powered reserach, creation and updates. Researches trending topics, generates professional posts with images, and auto-posts to LinkedIn via Buffer API. Full-stack application with real-time orchestration and agent-based processing.',
+    tech: ['React', 'TypeScript', 'FastAPI', 'Python', 'Buffer API', 'AI Agents', 'Vite', 'Vercel', 'Railway'],
+    link: 'https://ai-content-growth-platform-prod.vercel.app/',
+    github: 'https://github.com/NikithareddyC/AI-search',
+    stats: ['Multi-Agent AI', 'API Integration', 'Full-Stack'],
+  },
+  {
     title: 'Job Aggregator Dashboard',
     description: 'Real-time job scraper aggregating 1,500+ positions from 8 platforms. Automated scraping every 15 minutes with intelligent deduplication, built with FastAPI and deployed on Railway.',
     tech: ['Python', 'FastAPI', 'Playwright', 'PostgreSQL', 'Docker', 'Railway'],
