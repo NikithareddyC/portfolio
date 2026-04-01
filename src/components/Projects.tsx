@@ -3,6 +3,14 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projects = [
   {
+    title: 'Research Paper Intelligence Hub',
+    description: 'One search across 5 global academic databases — ArXiv, CrossRef, CORE, OpenAlex & PubMed. Deduplicates results, scores relevance with a custom algorithm, and generates summaries. Returns 40+ papers in under 4 seconds.',
+    tech: ['React', 'TypeScript', 'FastAPI', 'Python', 'ArXiv API', 'CrossRef API', 'PubMed API', 'Vercel', 'Railway'],
+    link: 'https://research-hub-tcbm.vercel.app/',
+    github: 'https://github.com/NikithareddyC/Research-hub',
+    stats: ['5 Databases', '40+ Papers', '<4s Search'],
+  },
+  {
     title: 'AI Research platform',
     description: '3-in-1 platform for AI-powered reserach, creation and updates. Researches trending topics, generates professional posts with images, and auto-posts to LinkedIn via Buffer API. Full-stack application with real-time orchestration and agent-based processing.',
     tech: ['React', 'TypeScript', 'FastAPI', 'Python', 'Buffer API', 'AI Agents', 'Vite', 'Vercel', 'Railway'],
